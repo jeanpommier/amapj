@@ -1,0 +1,21 @@
+<Context path="/amapj" docBase="/opt/amapj/webapp">
+
+<Parameter name="dbms" value="hi"  />
+
+<Parameter name="dbms.hi.type" value="hsql_internal"  />
+<Parameter name="dbms.hi.dir" value="/opt/amapj/amapj-db/"  />
+<Parameter name="dbms.hi.port" value="8002"  />
+
+<Parameter name="master.dbms" value="hi"  />
+<Parameter name="master.name" value="master"  />
+
+<Parameter name="database.backupdir" value="/opt/amapj/data/backups"  />
+
+<Parameter name="logDir" value="/opt/amapj/data/logs/"  />
+
+<Parameter name="wkhtmltopdf" value="wkhtmltopdf"  />
+
+<!-- Permet de desactiver la serialisation des sessions-->
+<Manager pathname="" />
+
+</Context>
